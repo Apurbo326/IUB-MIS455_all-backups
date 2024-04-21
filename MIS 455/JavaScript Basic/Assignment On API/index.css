@@ -1,0 +1,101 @@
+/* Nav bar copied code from Online */
+
+nav {
+    margin: 27px auto 0;
+  
+    position: relative;
+    width: 600px;
+    height: 50px;
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+  }
+  nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+  }
+  a:nth-child(1) {
+    width: 150px;
+  }
+  a:nth-child(2) {
+    width: 250px;
+  }
+  a:nth-child(3) {
+    width: 200px;
+  }
+  nav .start-home, a:nth-child(1):hover~.animation {
+    width: 150px;
+    left: 0;
+    background-color: #1abc9c;
+  }
+  nav .start-allCountries, a:nth-child(2):hover~.animation {
+    width: 250px;
+    left: 150px;
+    background-color: #e74c3c;
+  }
+  nav .start-yourCountry, a:nth-child(3):hover~.animation {
+    width: 200px;
+    left: 400px;
+    background-color: #e67e22;
+  }
+
+  body {
+    margin: 200px;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: sans-serif;
+    background: #2c3e50;
+  }
+  h1 {
+    text-align: center;
+    margin: 40px 0 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #ecf0f1;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Cherry Swash', cursive;
+  }
+  
+  p {
+      bottom: 20px;
+      width: 100%;
+      text-align: justify;
+      color: #ecf0f1;
+      font-family: 'Cherry Swash',cursive;
+      font-size: 16px;
+  }
+  
+  span {
+      color: #2BD6B4;
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 12px;
+    text-shadow: 2px 3px 2px #000000d6;
+}
+
+#img-1 {
+    margin-left: 390px;
+    width: 350px;
+    border-radius: 5px;
+}

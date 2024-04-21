@@ -1,0 +1,56 @@
+/* tag selector */
+
+body {
+    background-color: rgba(0, 140, 255, 0.831);
+}
+
+h1 {
+    color: rgb(46, 45, 45);
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+}
+
+input {
+    width: 300;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: rgba(254, 254, 254, 0.708);
+    border-top: 0cap;
+    border-left: 0cap;
+    border-right: 0cap;
+}
+
+button {
+    margin-left: 15%;
+    width: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(57, 151, 244);
+    border-radius: 15px;
+    color: aliceblue;
+    font-family: "Protest Riot", sans-serif;
+}
+
+/* class selector */
+
+.form {
+    background-color: rgb(233, 241, 241);
+    outline: 2px;
+    outline-color: rgba(0, 0, 0, 0.541);
+    outline-style: solid;
+    margin-top: 7%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 5%;
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.58);
+    border-radius: 10px;
+    font-family: "Long Cang", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    color: rgba(84, 87, 89, 0.824);
+}
+
+/* id selector */

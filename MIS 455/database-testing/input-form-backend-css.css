@@ -1,0 +1,15 @@
+body {
+    margin: 100px;
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+}
+
+h3 {
+    color: red;
+    outline: white;
+}
+
+span {
+    color: yellow;
+}

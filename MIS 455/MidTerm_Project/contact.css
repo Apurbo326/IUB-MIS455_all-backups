@@ -1,0 +1,112 @@
+/* Nav bar copied code from Online */
+
+nav {
+    margin: 27px auto 0;
+  
+    position: relative;
+    width: 420px;
+    height: 50px;
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+  }
+  nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+  }
+  a:nth-child(1) {
+    width: 100px;
+  }
+  a:nth-child(2) {
+    width: 220px;
+  }
+  a:nth-child(3) {
+    width: 100px;
+  }
+  nav .start-home, a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+    background-color: #1abc9c;
+  }
+  nav .start-about, a:nth-child(2):hover~.animation {
+    width: 220px;
+    left: 100px;
+    background-color: #e74c3c;
+  }
+  nav .start-blog, a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 320px;
+    background-color: #e67e22;
+  }
+  
+  body {
+    font-size: 12px;
+    font-family: sans-serif;
+    background: #2c3e50;
+    margin: 100px;
+  }
+
+
+/* My CSS Starts from here */
+footer {
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 12px;
+  text-shadow: 2px 3px 2px #000000d6;
+}
+
+.body {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.project {
+  background-color: #657e97;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 65px;
+  outline: 2px;
+  outline-color: rgba(0, 0, 0, 0.541);
+  outline-style: solid;
+  box-shadow: 7px 7px rgba(173, 216, 230, 0.76);
+  border-radius: 10px;
+}
+
+.project-1 {
+  margin: 2%;
+  padding: 8%;
+  text-align: justify;
+}
+
+.project-2 {
+  margin: 2%;
+  padding: 8%;
+  padding-top: 16%;
+  text-align: justify;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#profile {
+  width: 400px;
+  border-radius: 10px;
+}

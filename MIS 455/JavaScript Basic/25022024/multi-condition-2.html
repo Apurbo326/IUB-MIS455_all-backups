@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="multi-condition-2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Calculate Grade</title>
+</head>
+<body>
+    <div class="container">
+        <div class="con-1">
+            <h3>Calculate your grade!</h3>
+            <p>Enter your marks : <input type="text" id="marksInput"></p>
+            <button onclick="calculate()">Calculate</button>
+            <br>
+            <p>Your Final Grade is : <span id="display"></span></p>
+            <p>Your Final Grade in GPA : <span id="display-2"></span></p>
+        </div>
+
+        <div class="con-2">
+            <h1>Grade Sheet</h1>
+
+            <table>
+                <tr>
+                    <th>Marks</th>
+                    <th>Grade</th>
+                    <th>GPA</th>
+                </tr>
+                <tr>
+                    <td>90-100</td>
+                    <td>A</td>
+                    <td>4.00</td>
+                </tr>
+                <tr>
+                    <td>85-89</td>
+                    <td>A-</td>
+                    <td>3.70</td>
+                </tr>
+                <tr>
+                    <td>80-84</td>
+                    <td>B+</td>
+                    <td>3.30</td>
+                </tr>
+                <tr>
+                    <td>75-79</td>
+                    <td>B</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>70-74</td>
+                    <td>B-</td>
+                    <td>2.70</td>
+                </tr>
+                <tr>
+                    <td>65-69</td>
+                    <td>C+</td>
+                    <td>2.30</td>
+                </tr>
+                <tr>
+                    <td>60-64</td>
+                    <td>C</td>
+                    <td>2.00</td>
+                </tr>
+                <tr>
+                    <td>55-59</td>
+                    <td>C-</td>
+                    <td>1.70</td>
+                </tr>
+                <tr>
+                    <td>50-54</td>
+                    <td>D+</td>
+                    <td>1.30</td>
+                </tr>
+                <tr>
+                    <td>45-49</td>
+                    <td>D</td>
+                    <td>1.00</td>
+                </tr>
+                <tr>
+                    <td>0-44</td>
+                    <td>F</td>
+                    <td>0.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="multi-condition-2.js"></script>
+</body>
+</html>
